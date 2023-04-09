@@ -1,7 +1,11 @@
+body{
+    background-color:rgb(44, 42, 42);
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     background-color:rgb(44, 42, 42);
     padding-top: 15px;
@@ -12,11 +16,19 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    
   
 }
+
+.navbar-nav li a{
+    color: #f8ca00 !important;
+    font-weight: 700;
+}
+
 .navbar-nav  li a:hover {
     /* color: #1abc9c !important; */
-    color: #0a5cff !important; 
+    /* color: #0a5cff !important;  */
+    color: #f8951d !important; 
 }
 
 /* .nav-item{
@@ -24,8 +36,8 @@
 } */
 
 .navbar-brand{
-    color: rgb(223, 202, 202);
-
+    /* color: rgb(223, 202, 202); */
+   color: #f8ca00;
 }
 
 .footer-padding {
